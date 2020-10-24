@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\Desktop\\Filip\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Desktop\\DZ\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj",
       "projectName": "Class_Lib",
-      "projectPath": "C:\\Users\\filip\\Desktop\\Filip\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj",
+      "projectPath": "C:\\Users\\filip\\Desktop\\DZ\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj",
       "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\Desktop\\Filip\\DZ1_FilipCica\\Class_Lib\\obj\\",
+      "outputPath": "C:\\Users\\filip\\Desktop\\DZ\\DZ1_FilipCica\\Class_Lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",

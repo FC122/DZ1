@@ -4,17 +4,18 @@ using System.Text;
 
 namespace Class_Lib
 {
-    public class RandomDecimal
+    public static class RandomDecimal
     {
-        Random RandomNumber = new Random();
+       // Random RandomNumber = new Random();
 
-        public decimal GetRandomDecimal()
+        public static decimal GenerateRandomScore()
         {
+            Random RandomNumber = new Random();
             int I;
             int D;
             decimal d;
             I=RandomNumber.Next(1,10);
-            if (I == 10) { return 10; }
+            if (I == 10) { return 100; }
             D = RandomNumber.Next(0,999);
             d = D /(decimal)1000;
            // Console.WriteLine(d);

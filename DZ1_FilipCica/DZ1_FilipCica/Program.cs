@@ -1,5 +1,6 @@
 ﻿using System;
-using Class_Lib;
+using  Class_Lib;
+using static Class_Lib.RandomDecimal;
 namespace DZ1_FilipCica
 {
     class Program
@@ -7,11 +8,7 @@ namespace DZ1_FilipCica
 		
 		static void Main(string[] args)
         {
-		    decimal GenerateRandomScore()
-			{
-				RandomDecimal randomDecimal = new RandomDecimal();
-				return randomDecimal.GetRandomDecimal();
-			}
+		   
 
 			Episode ep1, ep2;
 			ep1 = new Episode();
