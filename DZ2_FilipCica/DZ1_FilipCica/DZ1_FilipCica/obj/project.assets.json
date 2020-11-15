@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ1_FilipCica\\DZ1_FilipCica\\DZ1_FilipCica.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ2_FilipCica\\DZ1_FilipCica\\DZ1_FilipCica\\DZ1_FilipCica.csproj",
       "projectName": "DZ1_FilipCica",
-      "projectPath": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ1_FilipCica\\DZ1_FilipCica\\DZ1_FilipCica.csproj",
+      "projectPath": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ2_FilipCica\\DZ1_FilipCica\\DZ1_FilipCica\\DZ1_FilipCica.csproj",
       "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ1_FilipCica\\DZ1_FilipCica\\obj\\",
+      "outputPath": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ2_FilipCica\\DZ1_FilipCica\\DZ1_FilipCica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj": {
-              "projectPath": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj"
+            "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ2_FilipCica\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj": {
+              "projectPath": "C:\\Users\\filip\\Desktop\\OOP\\DZ\\DZ2_FilipCica\\DZ1_FilipCica\\Class_Lib\\Class_Lib.csproj"
             }
           }
         }
