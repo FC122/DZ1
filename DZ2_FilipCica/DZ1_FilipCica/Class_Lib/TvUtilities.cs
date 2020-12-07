@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.Design;
+using System.IO;
 using System.Text;
-using static Class_Lib.RandomScore;
-
 namespace Class_Lib
 {
    public static class TvUtilities
@@ -19,7 +18,49 @@ namespace Class_Lib
             return new Episode(Episode[0],Episode[1],Episode[2],descriptions);
 
         }
-        
+
+        public static decimal GenerateRandomScore()
+        {
+            Random RandomNumber = new Random();
+            int I;
+            int D;
+            decimal d;
+            I = RandomNumber.Next(1, 10);
+            if (I == 10) { return 100; }
+            D = RandomNumber.Next(0, 999);
+            d = D / (decimal)1000;
+            // Console.WriteLine(d);
+            I = I % 10;
+            //Console.WriteLine(I+d);
+            return (I + d);
+
+        }
+
+        public static Episode[] LoadEpisodesFromFile(string filename)
+        {
+
+
+            string[] episodesInputs = File.ReadAllLines(filename);
+            Episode[] episodes = new Episode[10];
+            for(int i = 0; i < episodes.Length; i++)
+			{
+                episodes[i] = Parse(episodesInputs[i]);
+            }
+            /*Episode[] episodes = new Episode[10];
+            string line;
+            int i = 0;
+            using (StreamReader sr = new StreamReader(filename))
+            {
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] split=line.Split(',');
+                    episodes[i] = new Episode(split[0],split[1],split[2],new Description(split[4],split[5],split[6]));
+                        i++;
+                }
+            }
+            */
+            return episodes;
+        }
 
         public static void Sort(Episode[] episodes)
         {

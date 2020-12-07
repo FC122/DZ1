@@ -10,6 +10,11 @@ namespace Class_Lib
         decimal MaxScore;
         Description descriptions = new Description();
 
+        public TimeSpan GetDuriation()
+        {
+            return descriptions.GetEpisodeDuriation();
+        }
+
         public Episode(string ViewerCount, string ScoreSum, string MaxScore, Description descriptions)
         {
             this.ViewerCount = int.Parse(ViewerCount);

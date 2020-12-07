@@ -1,6 +1,6 @@
 ﻿using System;
 using  Class_Lib;
-using static Class_Lib.RandomScore;
+
 
 namespace DZ1_FilipCica
 {
@@ -9,7 +9,30 @@ namespace DZ1_FilipCica
 		
 		static void Main(string[] args)
         {
+			string fileName ="shows.txt";
+			string outputFileName = "storage.txt";
 
+			IPrinter printer = new ConsolePrinter();
+			printer.Print($"Reading data from file {fileName}");
+
+			Episode[] episodes = TvUtilities.LoadEpisodesFromFile(fileName);
+			Season season = new Season(1, episodes);
+
+			printer.Print(season.ToString());
+			for (int i = 0; i < season.Length; i++)
+			{
+				season[i].AddView(TvUtilities.GenerateRandomScore());
+			}
+			printer.Print(season.ToString());
+
+			printer = new FilePrinter(outputFileName);
+			printer.Print(season.ToString());
+
+
+
+
+
+			/*
 			Description description = new Description(1, TimeSpan.FromMinutes(45), "Pilot");
 			Console.WriteLine(description);
 			Episode episode = new Episode(10, 88.64, 9.78, description);
@@ -29,7 +52,7 @@ namespace DZ1_FilipCica
 			TvUtilities.Sort(episodes);
 			Console.WriteLine("Sorted episodes:");
 			string sortedEpisodesOutput = string.Join<Episode>(Environment.NewLine, episodes);
-			Console.WriteLine(sortedEpisodesOutput);
+			Console.WriteLine(sortedEpisodesOutput);*/
 
 			/*for(int i=0;i<3;i++)
 				{

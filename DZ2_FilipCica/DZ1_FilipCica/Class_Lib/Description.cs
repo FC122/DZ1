@@ -4,9 +4,13 @@ namespace Class_Lib
 {
     public class Description
     {
-        int EpisodeNumber { get;}
-        TimeSpan EpisodeDuriation { get;}
-        string EpisodeName { get; }
+        int EpisodeNumber;
+        TimeSpan EpisodeDuriation;
+        string EpisodeName;
+
+        public int GetEpisodeNumber() => EpisodeNumber;
+        public TimeSpan GetEpisodeDuriation() => EpisodeDuriation;
+        public string GetEpisodeName() => EpisodeName;
 
         public Description(string EpisodeNumber,string EpisodeDuriation,string EpisodeName)
         {
