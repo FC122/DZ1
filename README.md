@@ -1,2 +1,2 @@
-# DZ1
+# DZ4
 DZ iz Objektno orijentiranog programiranja
