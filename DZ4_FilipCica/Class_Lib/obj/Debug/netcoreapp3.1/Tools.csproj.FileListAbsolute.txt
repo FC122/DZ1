@@ -1,0 +1,12 @@
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\bin\Debug\netcoreapp3.1\Tools.exe
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\bin\Debug\netcoreapp3.1\Tools.deps.json
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\bin\Debug\netcoreapp3.1\Tools.runtimeconfig.json
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\bin\Debug\netcoreapp3.1\Tools.runtimeconfig.dev.json
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\bin\Debug\netcoreapp3.1\Tools.dll
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\bin\Debug\netcoreapp3.1\Tools.pdb
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\obj\Debug\netcoreapp3.1\Tools.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\obj\Debug\netcoreapp3.1\Tools.AssemblyInfo.cs
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\obj\Debug\netcoreapp3.1\Tools.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\obj\Debug\netcoreapp3.1\Tools.dll
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\obj\Debug\netcoreapp3.1\Tools.pdb
+C:\Users\filip\Desktop\OOP\DZ\DZ1_FilipCica\Class_Lib\obj\Debug\netcoreapp3.1\Tools.genruntimeconfig.cache
